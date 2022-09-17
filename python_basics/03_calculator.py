@@ -7,7 +7,6 @@ number_a = int(input("숫자 A를 입력해"))
 symbol = input("+, -, *, / 중 하나를 입력해 :")
 number_b = int(input("숫자 B를 입력해"))
 
-
 if symbol == "+":
     result = number_a + number_b
 elif symbol == "-":
