@@ -17,6 +17,8 @@ computer = rcp[random.randint(0, 2)]
 computer = random.choice(rcp)
 result = 0
 
+
+
 def result_show(who):
     if who == 1:
         return "비겼네"
