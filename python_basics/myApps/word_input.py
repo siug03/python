@@ -51,11 +51,12 @@ def test():
     kor.close()
     eng.close()
 
-while True:
-    mode = int(input("1-단어입력 / 2-단어시험 / 3-앱 종료"))
-    if mode == 3:
-        break
-    elif mode == 1:
-        word_in()
-    elif mode == 2:
-        test()
+def woridn():
+    while True:
+        mode = int(input("1-단어입력 / 2-단어시험 / 3-앱 종료"))
+        if mode == 3:
+            break
+        elif mode == 1:
+            word_in()
+        elif mode == 2:
+            test()
